@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+	<title>TEDxJGEC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="clock/flipclock.css">
+	<script type="text/javascript" src="static/js/jquery.js"></script>
+	<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="static/js/rellax.min.js"></script>
+	<link rel="shortcut icon" href="IMG/nav.png">
+	<!--FONTS-->
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800" rel="stylesheet">
+	<!--CLOCK-->
+	
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script src="clock/flipclock.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="static/css/tedx-style.css">
+
+</head>
+<body>
+
+<header>
+<div class="wrapper-1">
+
+<!--
+preloader
+-->
+<div class="loader">
+	<h1 style="color: red;">TEDx<span style="color: white;">JGEC</span></h1>
+
+	<img src="img/load.gif" alt="" style="width: 5%;">
+	</div>
+<div class="fixed-frame">
+    <h5><img src="IMG/TEDXJGEC.png" width="200"></h5>
+    
+    <h6><a href="https://www.facebook.com/tedxjgec">FACEBOOK</a> / <a href="https://www.instagram.com/tedxjgec">INSTAGRAM</a></h6>
+</div>
+
+
+<div class="container-fluid">
+
+	  <div class="mobilenav"> 
+		  <li><a href="index.html">Home</a></li> 
+		  <li><a href="coming.html">About</a></li>
+		<li><a href="register.php">Registration</a></li>
+<!--
+		 <div id="event">
+			  <li style="margin-top: 0;"><a href="events/index.html">Events</a></li> 
+			  <li class="under-event"><a href="engage/index.html">Past editions</a></li> 
+			  <li class="under-event"><a href="speakers/index.html">Speakers</a></li>
+			  <li class="under-event"><a href="team/index.html">Team</a></li>  
+  		</div>
+-->
+		<!--<li><a href="/engage/">Engage</a></li> 
+		<li><a href="/speakers/">Speakers</a></li>
+		<li><a href="/team/">Team</a></li> -->
+		   
+<!--		  <li><a href="contact/index.html">Contact</a></li>-->
+              <!--li><a href="/events/">Events</a></li-->
+
+		<li><a href="coming.html">Sponsors</a></li>
+
+<!--		  <li><a href="blog/index.html">Blog</a></li>-->
+                 
+	 </div>
+		<a href="javascript:void(0)" class="icon" id="hm">
+			<div class="hamburger">
+			  <div class="menui top-menu"></div>
+			  <div class="menui mid-menu"></div>
+			  <div class="menui bottom-menu"></div>
+			</div>
+		</a>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+  $(".icon").click(function () {
+    $(".mobilenav").fadeToggle(500);
+    $(".top-menu").toggleClass("top-animate");
+    $(".mid-menu").toggleClass("mid-animate");
+    $(".bottom-menu").toggleClass("bottom-animate");
+  });
+});
+
+</script>
+
+	<section>
+<!--
+	<div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+					
+              </div>
+            </div>
+          </div>
+        </div>
+-->
+
+
+
+		<div class="row cazz">
+			<div class="col-md-6 col-sm-12 xgif">
+				<img src="IMG/57.gif" alt="" style="padding-top: 400px;">
+			</div>
+			<div class="col-md-6 col-sm-12 mob-sec1">
+				<h3 style="color: white">All flames <br> <span style="color: red;">ignite</span> <br> with a<br> <span style="color: red;">spark</span></h3>
+					
+				 
+			</div>
+		</div>
+		<div class="row">
+			<div id="scroll">
+			<a href="#section-next"><span></span></a>
+			</div>
+		</div>
+	</section>
+
+	<section id="section-next">
+		
+          
+	
+              <div class="message"></div>
+              <div class="a1 "><h4 style="text-align: center; color: grey">Next <span style="color: red;">Event</span></h4></div>
+               <div class="clock res" style="margin:2em;"></div>
+		
+<!--				<h2 style="color: white; font-family: Montserrat;" class="a1" >11th February 2018</h2>	-->
+				<h4 class="a1" ><a href="register.php" style="text-decoration: none; color: red;">Register Now!</a></h4>
+			
+
+	<script type="text/javascript">
+			var clock;
+			$(document).ready(function() {
+				// Grab the current date
+				var currentDate = new Date();
+				// Set some date in the future. In this case, it's always Jan 1
+				var futureDate  = new Date(2019, 2, -17, 0, 0, 0);
+				// Calculate the difference in seconds between the future and current date
+				var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+				// Instantiate a coutdown FlipClock
+				clock = $('.clock').FlipClock(diff, {
+					clockFace: 'DailyCounter',
+					countdown: true
+				});
+			});
+		</script>
+              </div>
+            </div>
+          </div>
+        
+
+
+		
+	</section>
+    
+    
+
+
+
+<!--
+	<section>
+		<div class="absolute">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-offset-1 col-md-11">
+                <h2 class="rellax" data-rellax-speed="-3">DESIGN</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+            <div class="row"><div class="col-md-6 clk">gurtej</div></div>
+		<div class="row">
+			<div class="col-md-6">
+				
+			</div>
+			
+		</div>
+	</section>
+-->
+
+    <!--
+	<section>
+	
+
+		<div class="row">
+			<div class="col-md-6">
+				
+			</div>
+			<div class="col-md-6">
+				<h3>ideas <br> are <br> empowering.</h3>	
+			</div>
+		</div>
+	</section>
+	<section>
+
+		<div class="row">
+			<div class="col-md-6">
+				
+			</div>
+			<div class="col-md-6 hover-effect">
+				<h3>ideas <br> are <br> TEDxJGEC.</h3>	
+				<h4><a href="about/index.html">know more</a></h4>
+			</div>
+		</div>
+	</section>
+	</div>
+-->
+
+  <script type="text/javascript" src="static/js/rellax.min.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+      });
+    	$("#event").hover(function(){
+	$(".under-event").show();
+}, function() {
+	$(".under-event").hide();
+});
+    </script>
+    <script>
+$(document).ready(function() {
+//Preloader
+$(window).on("load", function() {
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.loader');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});	 
+});
+        
+        
+        
+</script>
+    <script>
+    var lFollowX = 0,
+    lFollowY = 0,
+    x = 0,
+    y = 0,
+    friction = 1 / 15;
+
+function moveBackground() {
+  x += (lFollowX - x) * friction;
+  y += (lFollowY - y) * friction;
+  
+  translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+
+  $('.cazz').css({
+    '-webit-transform': translate,
+    '-moz-transform': translate,
+    'transform': translate
+  });
+
+  window.requestAnimationFrame(moveBackground);
+}
+
+$(window).on('mousemove click', function(e) {
+
+  var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
+  var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
+  lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
+  lFollowY = (10 * lMouseY) / 100;
+
+});
+
+moveBackground();
+    </script>
+
+</div>
+
+    <footer>
+			<div class="container">
+				<div class="row" style="color:ghostwhite;">
+					<h5 class="text-center">CONNECT</h5>
+				</div>
+                <div class="row text-center">
+                    <a href="admin.php" style="color:grey;">ADMIN LOGIN</a>
+                </div>
+			</div>
+		</footer>
+    
+    
+    </div>
+</body>
+
+
+</html>

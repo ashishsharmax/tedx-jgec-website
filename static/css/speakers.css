@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+body,html{
+	background-color: black;
+	overflow-x: hidden;
+}
+html {
+  overflow-x: initial !important;
+}
+
+
+.fixed-frame{
+	position: fixed;
+	z-index: 1000;
+	color: white;
+}
+
+.fixed-frame a{
+	color: white;
+}
+
+
+.fixed-frame  h5{
+	position: fixed;
+	top: 30px;
+	left: 80%;
+	letter-spacing: 4px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.fixed-frame h6{
+	position: fixed;
+	letter-spacing: 4px;
+	font-family: "Montserrat", sans-serif;
+	 -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    top: 50%;
+    left: -65px;
+    
+}
+
+
+
+
+/*NAV*/
+/* Toggle functionality */
+
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.mid-animate { opacity: 0; }
+
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.menui {
+  background: #fff;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 10px;
+  position: absolute;
+}
+
+.icon {
+  z-index: 999;
+  position: fixed;
+  display: block;
+  padding: 9px;
+  height: 32px;
+  width: 32px;
+  margin: 0px;
+  top: 0;
+  left: 0;
+}
+
+.mobilenav {
+  font-family: inherit;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #212120;
+  opacity: 0.9;
+}
+
+.mobilenav li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.mobilenav li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  width: 100%;
+}
+
+.mobilenav li:first-child { margin-top: 4%; }
+
+#hm{
+	left: 2%;
+	top: 3%;
+	font-family: 'Cardo', serif;
+}
+
+.container{
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+
+.row{
+	padding-top: 5%;
+}
+.row>h1{
+	font-family: 'Montserrat', sans-serif ;
+  	font-size: 90px;
+	font-weight: 900;
+}
+h2{
+	color: white;
+}
+
+h3{
+	color: red;
+	font-family: 'Staatliches', cursive;
+	font-size: 35px;
+}
+
+/*SPEAKERS*/
+
+.card-title{
+	color: white;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.card-text{
+	color: red;
+	font-size: 18px;
+	text-align: center;
+
+}
+.pi{
+	border: 1px solid red;
+	background: transparent;
+	color: white;
+	
+}
+.pi:hover{
+	border: none;
+	background: #EE3323;
+	color: white;
+}
+i{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.fb{
+	color: #4267B2;
+}
+.ig{
+	color: white;
+}
+
+.modal-header{
+	background-color: #EE3323;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+	
+}
+.close{
+	color: white;
+}
+.modal-footer{
+	background-color: #EE3323;
+}
+
+
+div.card {
+ 
+  -webkit-box-shadow: -1px 20px 93px -22px rgba(255,0,0,1);
+-moz-box-shadow: -1px 20px 93px -22px rgba(255,0,0,1);
+box-shadow: -1px 20px 93px -22px rgba(255,0,0,1);
+  
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+@media only screen and (max-width: 500px ){
+	
+	.mobilenav li{
+		text-align: left;
+		padding-left: 20%;
+	}
+	.res{
+		display: block!important;
+			}
+	
+	
+	.fixed-frame  h5{
+	position: fixed;
+	top: 30px;
+	left: 30%;
+	}
+	
+	.fixed-frame h5 img{
+		width: 100px;
+	}
+
+	.absolute h2{
+		font-size: 70px;
+	}
+	.flip-clock-label{
+		display: none !important;
+	}
+
+    .mob-sec1{
+        padding-top: 25px;
+        
+    }
+	
+	.container{
+		padding-top: 15%;
+	}
+	.row>h1{
+		font-size: 40px;
+	}
+	
+	h2{
+		font-size: 25px;
+	}
+	#ash{
+		display: none;
+	}
+	.ash2{
+		width: 30%;
+	}
+	
+	#ash3{
+		position: absolute;
+		left: 130px;
+	}
+	.youtube-embed{
+		width: -50% !important;	
+	}
+	.videowrapper {
+    float: none;
+    clear: both;
+    width: 80%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+}
+
+
+
